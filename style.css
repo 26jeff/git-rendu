@@ -4,6 +4,7 @@ body {
     padding: 0;
 }
 
+/* navbar */
 nav {
     background-color: #19192300;
     color: white;
@@ -62,6 +63,7 @@ li a:hover::before {
     margin-top: -5px;
 }
 
+/* footer */
 footer {
     background-color: #0b547b93;
 }
