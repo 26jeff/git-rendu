@@ -58,6 +58,43 @@ li a:hover::before {
     background-color: white;
 }
 
-hr {
+.bar {
     margin-top: -5px;
+}
+
+footer {
+    background-color: #0b547b93;
+}
+
+footer hr {
+    height: 1.5px;
+    background-color: #178bc9;
+    border: none;
+}
+
+.logo-footer img {
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text {
+    margin-left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.text a {
+    color: rgba(0, 0, 0, 0.485);
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.text .lien {
+    color: rgba(0, 0, 0, 0.485);
+}
+
+.lien a:hover {
+    color: blue;
 }
