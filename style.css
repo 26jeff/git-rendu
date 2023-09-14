@@ -72,6 +72,7 @@ li a:hover::before {
     width: 97%;
     height: auto;
     border-radius: 3%;
+    visibility: hidden
 }
 
 section {
@@ -127,5 +128,5 @@ footer hr {
 }
 
 .lien a:hover {
-    color: blue;
+    color: rgb(0, 191, 255);
 }
