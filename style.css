@@ -63,6 +63,26 @@ li a:hover::before {
     margin-top: -5px;
 }
 
+/* main */
+
+section {
+    text-align: center;
+}
+
+.image-text {
+    border-radius: 35%;
+    padding: 10px 10px 0px 10px;
+    cursor: pointer;
+    margin: 3rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.pp {
+    width: 100px;
+    border-radius: 50%;
+}
+
 /* footer */
 footer {
     background-color: #0b547b93;
