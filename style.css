@@ -21,7 +21,7 @@ nav a {
     color: white;
 }
 
-nav .nom {
+nav .name {
     font-size: 25px;
 }
 
@@ -63,7 +63,7 @@ li a:hover::before {
     margin-top: -5px;
 }
 
-/* main */
+/* index.html main */
 .text_image-bg img {
     display: block;
     margin-top: 20px;
@@ -97,9 +97,11 @@ section {
 .card-container {
     text-decoration: none;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 20px;
+    font-size: 30px;
     color: #191923;
+    font-weight: bold;
     margin-top: 7rem;
+    margin-bottom: 7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -107,8 +109,8 @@ section {
 }
   
 .card {
-    width: 360px;
-    height: 480px;
+    width: 324px;
+    height: 510px;
     perspective: 1000px;
     cursor: pointer;
 }
@@ -131,9 +133,9 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: #0E79B2;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 35px;
+    background-color: #0e71a6;
 }
   
 .card-back {
@@ -144,15 +146,14 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid white;
-    border-radius: 10px;
-    background-color: #0E79B2;
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 35px;
+    background-color: #0e71a6;
 }
 
 .card-back p {
     padding: 20px;
     text-align: center;
-    font-size: 16px;
 }
 
 .card-front p {
@@ -162,6 +163,7 @@ section {
 /* footer */
 footer {
     background-color: #0b547b93;
+    padding-bottom: 1.5rem;
 }
 
 footer hr {
@@ -189,10 +191,10 @@ footer hr {
     margin-right: 5px;
 }
 
-.text .lien {
+.text .link {
     color: rgba(0, 0, 0, 0.485);
 }
 
-.lien a:hover {
+.link a:hover {
     color: rgb(0, 191, 255);
 }
