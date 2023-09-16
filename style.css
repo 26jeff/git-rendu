@@ -21,7 +21,7 @@ nav a {
     color: white;
 }
 
-nav .nom {
+nav .name {
     font-size: 25px;
 }
 
@@ -63,7 +63,7 @@ li a:hover::before {
     margin-top: -5px;
 }
 
-/* main */
+/* index.html main */
 .text_image-bg img {
     display: block;
     margin-top: 20px;
@@ -206,10 +206,10 @@ footer hr {
     margin-right: 5px;
 }
 
-.text .lien {
+.text .link {
     color: rgba(0, 0, 0, 0.485);
 }
 
-.lien a:hover {
+.link a:hover {
     color: rgb(0, 191, 255);
 }
