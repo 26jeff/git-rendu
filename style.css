@@ -21,7 +21,7 @@ nav a {
     color: white;
 }
 
-nav .name {
+nav .nom {
     font-size: 25px;
 }
 
@@ -64,18 +64,33 @@ li a:hover::before {
 }
 
 /* index.html main */
+.text_image-bg {
+    overflow: hidden;
+    position: relative;
+}
+
 .text_image-bg img {
+    opacity: 0.3;
+    position: absolute;   
     display: block;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 97%;
-    height: auto;
-    border-radius: 3%;
-    visibility: hidden
+    margin-top: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+    height: 600px;
+}
+
+.content {
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }
 
 section {
+    overflow: hidden;
+    position: relative;
     text-align: center;
 }
 
@@ -89,7 +104,7 @@ section {
 }
 
 .pp {
-    width: 100px;
+    width: 200px;
     transition-duration: 0.2s;
     border-radius: 50%;
 }
@@ -97,7 +112,7 @@ section {
 .pp:hover {
     margin: -10px;
     transition-duration: 0.2s;
-    width: 120px;
+    width: 220px;
 }
 
 /* jeff.html card */
@@ -169,6 +184,7 @@ section {
 
 /* footer */
 footer {
+    position: relative;
     background-color: #0b547b93;
     padding-bottom: 1.5rem;
 }
