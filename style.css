@@ -21,7 +21,7 @@ nav a {
     color: white;
 }
 
-nav .nom {
+nav .name {
     font-size: 25px;
 }
 
@@ -67,6 +67,7 @@ li a:hover::before {
 .text_image-bg {
     overflow: hidden;
     position: relative;
+    height: 500px;
 }
 
 .text_image-bg img {
@@ -77,10 +78,11 @@ li a:hover::before {
     margin-left: 0;
     margin-right: 0;
     width: 100%;
-    height: 600px;
+    height: auto;
 }
 
 .content {
+    margin-top: 7rem;
     font-size: 25px;
     text-align: center;
     position: relative;
@@ -95,7 +97,6 @@ section {
 }
 
 .image-text {
-    border-radius: 35%;
     padding: 10px 10px 0px 10px;
     cursor: pointer;
     margin: 3rem;
@@ -104,7 +105,7 @@ section {
 }
 
 .pp {
-    width: 200px;
+    width: 170px;
     transition-duration: 0.2s;
     border-radius: 50%;
 }
@@ -112,7 +113,7 @@ section {
 .pp:hover {
     margin: -10px;
     transition-duration: 0.2s;
-    width: 220px;
+    width: 190px;
 }
 
 /* jeff.html card */
@@ -121,8 +122,8 @@ section {
     font-size: 25px;
     color: #191923;
     font-weight: bold;
-    margin-top: 7rem;
-    margin-bottom: 7rem;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
